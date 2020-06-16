@@ -1,0 +1,4 @@
+
+.icon-chat:before { content: '\e800'; } /* '' */
+.icon-user:before { content: '\e801'; } /* '' */
+.icon-clock:before { content: '\e802'; } /* '' */

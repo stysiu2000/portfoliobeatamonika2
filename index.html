@@ -1,0 +1,483 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="description" content="Beata Noga psycholog w Przemyślu" />
+    <meta name="keywords" content="Beata Noga, psycholog, psycholog w Przemyślu, psycholog Beata Noga, Beata Noga psycholog, psycholog" />
+    <title>Beata Wielgosz</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="menu1.css">
+    <link rel="stylesheet" href="menu2.css">
+    <link href="https://fonts.googleapis.com/css?family=Noto+Sans:400,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="fontello/css/fontello.css">
+    <link rel="stylesheet" href="fontello3/css/fontello.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400&display=swap" rel="stylesheet">
+    
+    <script src="http://code.jquery.com/jquery-1.9.1.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <script src="jquery.scrollTo.min.js"></script>
+    
+    <script>
+        jQuery(function($)
+            {
+                //zresetuj scrolla
+                $.scrollTo(0);
+                $('.down').click(function(e) {
+                    e.preventDefault()  
+                    $.scrollTo($('.container1'), 800); });
+                $('.home').click(function(e) {
+                    e.preventDefault() 
+                    $.scrollTo($('body'), 800); });
+                $('.omnie').click(function(e) {
+                    e.preventDefault() 
+                    $.scrollTo($('.container1'), 800); });
+                $('.offer').click(function(e) {   e.preventDefault() 
+                    $.scrollTo($('.oferta'), 800); });
+                $('.contact').click(function(e) {
+                    e.preventDefault() 
+                    $.scrollTo($('.kontakt'), 800); });
+                $('.homemenu').click(function(e) {
+                    e.preventDefault()  
+                    $.scrollTo($('body'), 800); });
+                $('.aboutmenu').click(function(e) {
+                    e.preventDefault()  
+                    $.scrollTo($('.container1'), 800); });
+                $('.ofertamenu').click(function(e) {
+                    e.preventDefault()  
+                    $.scrollTo($('.oferta'), 800); });
+                $('.kontaktmenu').click(function(e) {
+                    e.preventDefault()  
+                    $.scrollTo($('.nav1'), 800); });
+                
+                
+            }
+        );
+  
+        //pokaż podczas przewijania
+        $(window).scroll(function()
+        {
+            if($(this).scrollTop()>300) $('.scrollup').fadeIn();
+            else $('.scrollup').fadeOut();
+        }
+  
+        );
+        </script>
+
+
+
+<script>
+    function scrollAppear(){
+       var introText = document.querySelector('.testjs');
+       var introPosition = introText.getBoundingClientRect().top;
+       var screenPosition = 900;
+
+       if(introPosition < screenPosition){
+           introText.classList.add('intro-appear');
+       }
+     }
+   window.addEventListener('scroll',scrollAppear);
+   </script>
+
+<script>
+    function scrollAppear(){
+       var introText = document.querySelector('.testjs1');
+       var introPosition = introText.getBoundingClientRect().top;
+       var screenPosition = 900;
+
+       if(introPosition < screenPosition){
+           introText.classList.add('intro-appear');
+       }
+     }
+   window.addEventListener('scroll',scrollAppear);
+   </script>
+
+<script>
+    function scrollAppear(){
+       var introText = document.querySelector('.headeroffer');
+       var introPosition = introText.getBoundingClientRect().top;
+       var screenPosition = 700;
+
+       if(introPosition < screenPosition){
+           introText.classList.add('intro-appear');
+       }
+     }
+   window.addEventListener('scroll',scrollAppear);
+   </script>
+
+<script>
+    function scrollAppear(){
+       var introText = document.querySelector('.headeroffer');
+       var introPosition = introText.getBoundingClientRect().top;
+       var screenPosition = 600;
+
+       if(introPosition < screenPosition){
+           introText.classList.add('intro-appear');
+       }
+     }
+   window.addEventListener('scroll',scrollAppear);
+   </script>
+
+<script>
+    function scrollAppear(){
+       var introText = document.querySelector('.opis1');
+       var introPosition = introText.getBoundingClientRect().top;
+       var screenPosition = 700;
+
+       if(introPosition < screenPosition){
+           introText.classList.add('intro-appear');
+       }
+     }
+   window.addEventListener('scroll',scrollAppear);
+   </script>
+
+<script>
+    function scrollAppear(){
+       var introText = document.querySelector('.opis2');
+       var introPosition = introText.getBoundingClientRect().top;
+       var screenPosition = 700;
+
+       if(introPosition < screenPosition){
+           introText.classList.add('intro-appear');
+       }
+     }
+   window.addEventListener('scroll',scrollAppear);
+   </script>
+
+<script>
+    function scrollAppear(){
+       var introText = document.querySelector('.opis3');
+       var introPosition = introText.getBoundingClientRect().top;
+       var screenPosition = 700;
+
+       if(introPosition < screenPosition){
+           introText.classList.add('intro-appear');
+       }
+     }
+   window.addEventListener('scroll',scrollAppear);
+   </script>
+
+<script>
+    function scrollAppear(){
+       var introText = document.querySelector('.kontakt');
+       var introPosition = introText.getBoundingClientRect().top;
+       var screenPosition = 600;
+
+       if(introPosition < screenPosition){
+           introText.classList.add('intro-appear');
+       }
+     }
+   window.addEventListener('scroll',scrollAppear);
+   </script>
+
+</head>
+<body>
+    <!-- Load Facebook SDK for JavaScript -->
+    <div id="fb-root"></div>
+    <script>
+      window.fbAsyncInit = function() {
+        FB.init({
+          xfbml            : true,
+          version          : 'v7.0'
+        });
+      };
+
+      (function(d, s, id) {
+      var js, fjs = d.getElementsByTagName(s)[0];
+      if (d.getElementById(id)) return;
+      js = d.createElement(s); js.id = id;
+      js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js';
+      fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));</script>
+
+    <!-- Your Chat Plugin code -->
+    <div class="fb-customerchat"
+      attribution=setup_tool
+      page_id="110866214001711">
+    </div>
+
+
+    
+    <header>
+        <div class="logo">
+            
+            <div class="nav">
+                <div class="logo1">
+                     <a href="#"> <img src="logoprzestrzen.png"></a>  
+                </div>
+                <ul>
+                    
+                    
+                            
+                            
+                        <li class="home"><a href="#">Home</a> </li>
+                        <li class="omnie"><a href="#">O nas</a> </li>
+                        <li class="offer"><a href="#">Oferta</a> </li>                           
+                        <li class="contact"><a href="#">Kontakt</a> </li>
+                     
+                </ul>
+            </div>
+
+            <div class="introduction">
+
+                <p class="describe-banner">Gabinet<br> Psychoterapii<br> i Pomocy Psychologicznej </p>
+                
+            </div>
+           
+        
+        </div>
+    </header>
+
+    <section class="one">
+    <div class="container1">
+       
+                <div class="about">
+                    
+                    <div class="image1">
+                        <img src="beata.jpg">
+                        <div class="testjs">
+                            <h5 class="psycholog">psycholog, psychoterapeuta</h5>
+                            <h1>Beata Wielgosz</h1>
+                            <p>Ukończyłam studia psychologiczne na Uniwersytecie Marii Curie-Skłodowskiej, na specjalności psychologia kliniczna i neuropsychologia. Jestem absolwentką studium socjoterapii i psychoterapii młodzieży. Kwalifikacje psychoterapeuty uzyskałam w Krakowskim Centrum Psychodynamicznym. <br><br>
+
+                                Jestem członkiem Polskiego Towarzystwa Psychoterapii Psychodynamicznej. Swoją pracę poddaję regularnej superwizji. 
+                                <br><br>
+                                
+                                Doświadczenie zawodowe zdobywałam m.in. pracując z dziećmi i młodzieżą w Poradni Psychologiczno-Pedagogicznej, szkołach i przedszkolu. Doświadczenie w pracy z osobami dorosłymi uzyskałam odbywając staż na Dziennym Oddziale Psychiatrycznym oraz pracując w Poradni Zdrowia Psychicznego w  NZOZ Podkarpackiego Centrum Zdrowia Psychicznego. <br><br>
+                                
+                                Prowadzę psychoterapię indywidualną dzieci, młodzieży oraz osób dorosłych. Udzielam pomocy psychologicznej i wsparcia dla rodziców w rozwijaniu ich kompetencji wychowawczych.
+                                
+                                
+                                 </p>
+                        </div>
+                    </div>
+                </div>
+
+         
+    
+    
+          
+        
+        <div class="about">
+            
+            <div class="image2">
+                <img src="monikajpg.jpg">
+            
+            
+                    <div class="testjs1">
+                        <h5>Psycholog, pedagog, psychoterapeuta</h5>
+                        <h1>Monika Mihal</h1>
+                        <p>
+                            Wykształcenie zdobyłam kończąc psychologiczne studia magisterskie na Uniwersytecie Śląskim
+                            oraz pedagogiczne studia magisterskie na Uniwersytecie Rzeszowskim. Obecnie jestem w
+                            drodze do uzyskania certyfikatu psychoterapeuty kształcąc się w Krakowskim Centrum
+                            Psychodynamicznym. Posiadaną wiedzę wzbogacam poprzez udział w licznych kursach,
+                            szkoleniach, konferencjach oraz studiach podyplomowych.. <br><br>
+                            
+                            Dotychczasowe doświadczenie zawodowe zdobyłam odbywając staż w Poradni Psychologiczno-Pedagogicznej, pracując z dziećmi, młodzieżą oraz ich rodzicami w Centrum Terapii i Rehabilitacji oraz szkole podstawowej, a także z osobami w podeszłym wieku w Domu Dziennego Pobytu. Obecnie pracuje w Wojewodzkim Podkarpackim Szpitalu Psychiatrycznym w Żurawicy, gdzie na Oddziale Dziennym Psychiatrycznym prowadzę psychoterapię indywidualną i grupową. Jako psycholog udzielam pomocy i wsparcia uczniom, rodzicom oraz nauczycielom, jak również prowadzę zajęcia terapeutyczne w Specjalnym Ośrodku Szkolno-Wychowawczym nr 3 w Przemyślu.  Jestem członkiem Polskiego Towarzystwa Psychoterapii Psychodynamicznej. Swoją pracę poddaję regularnej superwizji. <br><br>
+                            
+                            W gabinecie prowadzę indywidualną psychoterapię psychodynamiczną osób dorosłych. Poradnictwo psychologiczne dla osób będących w kryzysie życiowym, znajdujących się w trudnej sytuacji wywołującej pogorszenie samopoczucia psychicznego oraz dla rodziców zmagających się z problemami wychowawczymi. Ponadto oferuję doradztwo zawodowe osobom stojącym przed wyborem kierunku kształcenia lub chcącym dokonać zmian w swoim życiu zawodowym.
+                            </p>
+                    </div>
+        
+            </div>
+   
+        
+        </div>
+        
+    </div>
+</section>
+
+     <section class="oferta">
+         <div class="headeroffer">
+             <h1>Co oferujemy?</h1>
+             
+         </div>
+        <div class="container2">
+            <div class="oferta1">
+                                <div class="icon1">
+                                        
+                                        <i class="demo-icon icon-users"></i>
+                                        
+                                </div>
+                        <div class="opis1">       
+                            <p><strong>Psychoterapia dzieci i młodzieży.</strong><br><br>
+                                Dzieciom i młodzieży, która zmaga się z rożnego rodzaju trudnościami oferujemy psychoterapię indywidualną...
+                                
+                              
+                            </p>
+                         </div> 
+                        <div class="button1">
+                            <h5 onClick="op('#clock');">Czytaj więcej</h5>
+                           
+                            <div id="clock" style="display: none;">
+                                <p>
+                                    W celu dobrania optymalnej formy pomocy na spotkania konsultacyjne zapraszamy dziecko wraz z rodzicami. Po ustaleniu kontraktu, w którym określamy cel terapii oraz częstotliwość spotkań, rozpoczyna się praca terapeutyczna z dzieckiem lub nastolatkiem. Podczas swobodnej zabawy lub innej aktywności, młody pacjent ma okazję wspólnie z terapeutą opracować trudności z jakimi się zmaga
+
+
+                                    Zgłoś swoje dziecko na terapię jeśli zauważysz u niego: <br><br>
+                                    - obniżony nastrój, drażliwość, wybuchy złości i agresji; <br><br>
+                                    - wzmożony niepokój, lękliwość, obniżoną samoocenę;<br><br>
+                                    - trudności adaptacyjne; <br><br>
+                                    - problemy w budowaniu relacji rodzinnych i rówieśniczych, wycofanie społeczne;<br><br>
+                                    - zachowania autoagresywne;<br><br>
+                                    - trudności w nauce, niechęć uczęszczania do szkoły.<br><br>
+                                    
+                                    
+                                   <p class="cennik" style= "text-align: center; padding: 0;"> Sesja psychoterapii indywidualnej dzieci i młodzieży- 100 zł</p>
+                                    
+                                </p>
+                            </div>
+                        </div>
+            </div>
+
+        
+
+        
+        
+                <div class="oferta1">
+                        <div class="icon1">
+                            <i class="demo-icon icon-user"></i>
+                        </div>
+                        <div class="opis2">
+                            <p><strong>Psychoterapia osób dorosłych</strong><br><br>
+
+                                Oferujemy indywidualną terapię psychodynamiczną, która poprzedzona jest etapem konsultacyjnym (5-10 spotkań)..
+                               
+                                </p>
+                         </div>
+                        <div class="button1">
+                            <h5 onClick="op('#chat');">Czytaj więcej</h5>
+                           
+                            <div id="chat" style="display: none;">
+                                <p>
+                                    podczas którego terapeuta rozpoznaje przyczyny trudności pacjenta i ustala diagnozę.
+                                    Następnie między terapeutą a pacjentem zawierany jest kontrakt, który określa m.in. cel terapii, ilość i czas spotkań itp. Terapia jest długoterminowym procesem leczenia dostosowanym do potrzeb i możliwości każdego pacjenta.
+                                    
+                                    Zgłoś się na terapię jeśli: <br><br>
+                                    -	czujesz nieustający smutek, przygnębienie lub lęk;<br><br>
+                                    -	doświadczasz trudności w relacjach z innymi osobami;<br><br>
+                                    -	odczuwasz wewnętrzną pustkę i brak satysfakcji z życia;<br><br>
+                                    -	nie radzisz sobie z obowiązkami życia codziennego;<br><br>
+                                    -	ponosisz porażki na płaszczyźnie osobistej lub zawodowej;<br><br>
+                                    -	doświadczasz długotrwałego dyskomfortu w jakimkolwiek obszarze swojego życia;<br><br>
+                                    - 	zdiagnozowano u Ciebie lub podejrzewasz że cierpisz na depresję, zaburzenia osobowości,  psychosomatyczne, lękowe i inne.<br><br>
+                                    
+                                   <p class="cennik" style = "text-align: center;  padding: 0; "> Sesja psychoterapii indywidualnej- 100 zł</p>
+                                    
+                                 </p>
+                            </div>
+                        </div>
+                </div>         
+           
+                <div class="oferta1">
+                    <div class="icon1">
+                        <i class="demo-icon icon-chat"></i>
+                    </div>
+
+                    <div class="opis3">
+                        <p><strong>Inne formy pomocy</strong><br><br>
+
+                            Wsparcie psychologiczne - jedno lub kilka spotkań mających na celu doraźną pomoc w problemie...
+                            
+                           
+                            </p>
+                     </div>
+
+                    <div class="button1">
+                        <h5 onClick="op('#person');">Czytaj więcej</h5>
+                       
+                        <div id="person" style="display: none;">
+                            <p>
+                                Pomoc psychologiczna dla rodziców - pomoc w rozwiązywaniu napotykanych przez rodziców trudności pojawiających się na różnych etapach rozwoju dziecka. <br><br>
+                                
+                                Doradztwo zawodowe - pomoc w wyborze zawodu lub kierunku kształcenia w formie porad, określenie profilu i preferencji zawodowych z uwzględnieniem możliwości psychofizycznych osoby, jej sytuacji życiowej oraz zapotrzebowania na rynku pracy. <br><br>
+
+                                Inne formy pomocy- 80 zł
+                        </div>
+                    </div>
+            
+            </div>
+
+        </div>
+     </section>
+    
+     
+            <section class="nav1">
+                
+            <div class="container3">
+                <div class="mapa">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2576.1774337677743!2d22.776464615926667!3d49.782728143131045!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x473b7f2681652d6f%3A0x267add79e0511d72!2sAdama%20Mickiewicza%2015%2C%2037-700%20Przemy%C5%9Bl!5e0!3m2!1spl!2spl!4v1592258098259!5m2!1spl!2spl" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+                </div>
+
+                <div class="kontakt">
+                    <h3>Kontakt</h3>
+                    <p>Beata Wielgosz &<br> Monika Mihal
+                    <br><br>ul. Mickiewicza 15/23<br> Przemyśl
+                    </p>
+                    <ul>
+                        
+                        <li>Mail do Beaty: <strong><a class="mailstrong" href="mailto: beata.przestrzen@o2.pl"> beata.przestrzen@o2.pl</a> </strong></li>
+                        <li>Telefon do Beaty:<strong><a class="phone" href="tel: +48530783913"> 530 783 913</a> </strong></li>
+                        <li>Mail do Moniki:<strong><a class="mailstrong" href="mailto: monika.przestrzen@o2.pl"> monika.przestrzen@o2.pl</a> </strong></li>
+                        <li>Telefon do Moniki:<strong><a class="phone" href="tel: +48667284686"> 667 284 686</a> </strong> </li>
+                    </ul>
+                </div>
+            </div>
+            </section>
+            
+            <footer class="footer">
+                <div class="copy">
+                <p>Copyright &copy; Wszelkie prawa zastrzeżone. Design: <a href="https://www.facebook.com/profile.php?id=100002787445460" target="blank">barstys</a> </p>
+                </div>
+            </footer>
+
+            <!--MENU HAMBURGER in small resolution-->
+
+            <div class="menu-wrap">
+                <input type="checkbox" class="toggler">
+                <div class="hamburger"><div></div></div>
+                <div class="menu">
+                    <div>
+                        <div>
+                            <ul>
+                                <li class="homemenu"><a href="#">Home</a> </li>
+                                <li class="aboutmenu"><a href="#">O nas</a> </li>
+                                <li class="ofertamenu"><a href="#">Oferta</a> </li>
+                                <li class="kontaktmenu"><a href="#">Kontakt</a> </li>
+                                
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    
+            <!-- <div class="c-modal-outer" data-id="{{ id }}">
+                <div class="c-modal-background"></div>
+                    <div class="c-modal">
+                        <div class="c-modal__inner">
+                            <button class="btn-close js-modal-close" data-id="{{ id }}">&times;</button>
+                           
+                        </div>
+                    </div>
+            </div> -->
+
+<script>
+    jQuery(document).ready(function($){
+      op = function(obj) {
+        $(obj).stop().slideToggle();
+        };
+    });
+    </script>
+    
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.1.1/gsap.min.js" integrity="sha256-cyEXrJKjO3YNkpCjPxVBdi7pRJ3EF+okm1oN9Qc4rRY=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.1.1/TextPlugin.min.js.map" integrity="undefined" crossorigin="anonymous"></script>
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <script src="jquery.scrollTo.min.js"></script>
+    <script src="javascript.js"></script>
+    
+</body>
+</html>
